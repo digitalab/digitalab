@@ -1,0 +1,51 @@
+.ui-button .ui-button-text {
+    padding: 0;
+	line-height: 1;
+}
+/*кнопка, расположение и цвет текста в ней*/
+.ui-state-default{
+	background: none; border: none;
+	background-image:url('KN.png');	text-decoration:none; font-size:46px; font-family:Arial, Helvetica, sans-serif; 
+	font-weight:bold; text-align:center; color:#237398; padding: 9px 10px 9px 0px;
+	display:table-cell; vertical-align:middle;
+}
+/*цвета кнопки и текста при наезде*/
+.ui-state-hover{
+	background-image:url('KNa.png'); color:#ffffff;
+}
+/*цвета кнопки и текста в нажатом состоянии*/
+.ui-state-disabled{
+	background-image:url('KNa.png'); color:#ffffff; opacity: 1;
+}
+.ui-corner-all {
+    -moz-border-radius: 0;
+	border-radius: 0;
+}
+
+
+/*??????????????????????????*/
+.account-text {
+  /*background: url("KNa.png") repeat scroll 0 0 transparent;*/
+  border: medium none;
+  color: #c3f40e;
+  display: table-cell;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 5px 9px 5px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.account-value {
+  /*background: url("KNa.png") repeat scroll 0 0 transparent;*/
+  border: medium none;
+  color: #c3f40e;
+  display: table-cell;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 0px 9px 0px;
+  text-align: center;
+  vertical-align: middle;
+}
