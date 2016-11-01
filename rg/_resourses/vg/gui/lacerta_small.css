@@ -1,0 +1,233 @@
+﻿
+
+/* #commonBG - > Header*/
+#commonBG {
+	/*position: absolute;*/
+	position: relative;
+	/*height: 20px;*/
+	height: 0px;
+	width: 475px;
+	/*margin-bottom: -4%;*/
+	/*background:#ccffcc;*/
+}
+
+
+.headerRespText{
+	height: 15px;  
+	width: 280px;	
+	font-size: 11px;
+	overflow: visible;
+}
+
+
+
+.title_zone1{
+	line-height: 1;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.recommendation{
+	line-height: 1.2;
+	font-size: 10px;
+}
+.recommendation{
+	line-height: 1.5;
+	font-size: 10px;
+}
+
+.baseRespText {
+	/*margin:10px;*/
+	font-size: 9px;
+	line-height: 1.2;
+}
+.baseRespText_15 {
+	/*margin:10px;*/
+	font-size: 9px;
+	line-height: 1.5;
+}
+.baseRespText_o {
+	/*margin:10px;*/
+	font-size: 9px;
+	line-height: 1.2;
+}
+.baseRespText_o_r {
+	/*margin:10px;e3e8d2*/
+	font-size: 9px;
+	line-height: 1.2;
+	background-color: #efebd7;
+	border: 1px solid black; 
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+}	
+.txt_res {
+	font-size: 14px;
+	color: #4586b5;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+.txt_res_shadow {
+	font-size: 14px;
+	color: #2461b2;
+	font-weight: bold;
+	padding-top: 9px;
+	text-align: center;
+}
+td, th {
+	font-size:9px; 
+}
+
+/* Smaller than standard 960 (devices and browsers) 
+@media only screen and (max-width: 945px)*/
+
+@media only screen and (orientation: portrait) {
+
+	
+	#commonBG {
+		/*height: 30px;*/
+		height: 0px;
+		width: 320px;
+	}
+	
+	.headerRespText{
+		/*height: 25px !important;*/ 
+		/*width: 303px !important;*/	
+		font-size: 11px;
+	}	
+	
+	#currentStep { 
+		width: 320px;
+	}	
+	
+	.baseRespText {
+		font-size: 10px;
+	}
+
+	.r1_float{
+		top: 265px !important;
+		left: 8px !important;
+	}
+	.r2_float{
+		top: 265px !important;
+		left: 162px !important;
+	}
+
+}
+
+
+
+.inputDefault2 {
+    color: #514E46;
+    font-size: 9px;
+}
+
+ 
+
+#largeText{
+width: 75px; /* Ширина блока */
+}
+
+a img {
+border: none;
+}
+
+.lacertaImgButton{
+  top: 0px;
+  left: 0px
+}
+
+.ui-target-active-def{
+	border: 1px solid #00ff00;	
+}
+
+.ui-target-hover-def{
+	border: 1px solid #0000ff;
+	margin-left: -1px;
+	margin-top: -1px;	
+	/*padding-top: 5px;*/
+}
+/* .ui-state-disabled переопредялет, заданный  в файле jquery-ui-1.8.2.custom.css, одноименный стиль,
+   предназначенный для отображения установленных в целевую зону объектов, получивших статус disable */
+.ui-state-disabled{
+opacity:0.65;
+}
+
+.border1, .b1{
+	border-style: solid;
+	border-width: 1px;
+}
+
+.border2, .b2{
+	border-style: solid;
+	border-width: 2px;
+}
+
+.border3, .b3{
+	border-style: solid;
+	border-width: 3px;
+}
+
+.borderRed, .bR{
+	border-color:#f00;
+}
+.borderGreen, .bG{
+	border-color:rgb(81, 78, 70);	
+}
+.borderWhite, .bW{
+	border-color:rgb(243, 243, 242);
+}
+.borderYllow, .bY{
+	border-color:rgb(255, 255, 0);
+}
+
+.imgHintDefault{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	z-index:1100;	
+	display:none;
+}
+
+.htmlHintDefault{
+	font-size: 10px;
+	line-height: 1.2;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding: 2px 3px;
+	margin: 0px -2px 0px -2px;
+	color:#333;
+	z-index:1100;
+	width: 200px; 	
+	display:none;
+}
+.ui-state-default{
+	font-size:8px; 
+	padding: 4px 5px 4px 0px;
+}
+
+
+.ui-corner-all {
+    -moz-border-radius: 0;
+	border-radius: 0;
+}
+.account-text {
+  /*background: url("KNa.png") repeat scroll 0 0 transparent;*/
+
+  font-size: 16px;
+  font-weight: bold;
+  padding: 2px 2px 4px 2px;
+}
+.account-value {
+  /*background: url("KNa.png") repeat scroll 0 0 transparent;*/
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 8px;
+  padding: 2px 0px 4px 0px;
+}

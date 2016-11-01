@@ -1,0 +1,50 @@
+﻿
+/* Smaller than standard 960 (devices and browsers) 
+@media only screen and (max-width: 945px)*/
+
+@media only screen and (orientation: portrait) {
+	div#scene{
+		margin:0 auto;
+		/*height: 860px;*/
+		/*width: 640px;*/
+	}
+	
+	#commonBG {
+		/*height: 59px; */
+		height: 0px;
+		width: 640px;
+	}
+	
+	.headerRespText{
+		/*height: 50px !important;*/ 
+		/*width: 605px !important;*/	
+		font-size: 22px;
+	}	
+	.baseRespText_o {
+		/*margin:10px;*/
+		font-size: 20px;
+		line-height: 1.2;
+	}
+	.baseRespText_o_r {
+		/*margin:10px;e3e8d2*/
+		font-size: 20px;
+		line-height: 1.2;
+		background-color: #efebd7;
+		border: 1px solid black; 
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+	}	
+
+
+
+	.r1_float{
+		top: 515px !important;
+		left: 15px !important;
+	}
+	.r2_float{
+		top: 515px !important;
+		left: 325px !important;
+	}
+
+}

@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:rl="http://spec.edu.ru/xsd/RUS_LOM" xmlns:fcior="http://fcior.edu.ru/xsd/metadata" xmlns:mspk="http://educom.ru/xsd/mspk/1.0">
+	<!--  1_Общие сведения об ИР   -->
+	<general>
+		<!--RusPosl-->
+		<identifier>
+			<catalog>URN:X-RUS-LIB-MSPK</catalog>
+			<entry>D3FC3D52-0BA4-4ADC-B966-9FB0C5D84863</entry>
+		</identifier>
+		<title>
+			<string language="ru">Название модуля</string>
+		</title>
+		<language>ru</language>
+		<description>
+			<string language="ru">Описание модуля</string>
+		</description>
+		<keyword>
+			<string language="ru">ключевое слово 1</string>
+		</keyword>
+		<keyword>
+			<string language="ru">ключевое слово 2</string>
+		</keyword>
+	</general>
+	<!--  2_Жизненный цикл ИР  -->
+	<lifeCycle>
+		<version>
+			<string language="none">1.0.0.1</string>
+		</version>
+		<status>
+			<source>LOMv1.0</source>
+			<value>final</value>
+		</status>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>publisher</value>
+			</role>
+			<entity>BEGIN:VCARD&#13;&#10;VERSION:3.0&#13;&#10;FN;language=ru:ОРГАНИЗАЦИЯ&#13;&#10;N;language=ru:Краткое имя&#13;&#10;ORG;language=ru:Полное имя&#13;&#10;ADR;language=ru:;;ул. , 1 ;Москва;;117485;Россия&#13;&#10;TEL;type=voice,work,fax:+7-+7-+7(495)000-00-00&#13;&#10;EMAIL:name@domen.ru &#13;&#10;URL;value=uri:http://name.ru/&#13;&#10;END:VCARD</entity>
+			<date>
+				<dateTime>2014-03-27</dateTime>
+			</date>
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>author</value>
+			</role>
+			<entity>BEGIN:VCARD&#13;&#10;VERSION:3.0&#13;&#10;FN;language=ru:ФИО&#13;&#10;N;language=ru:Ф;И;О;канд. пед. наук&#13;&#10;TITLE;language=ru:Должность &#13;&#10;ORG;language=ru:Организация;Отдел&#13;&#10;END:VCARD</entity>
+		</contribute>
+		<contribute>
+			<role>
+				<source>RUS_LOMv1.0</source>
+				<value>director</value>
+			</role>
+			<entity></entity>
+		</contribute>
+		<contribute>
+			<role>
+				<source>RUS_LOMv1.0</source>
+				<value>painter</value>
+			</role>
+			<entity></entity>
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>script writer</value>
+			</role>
+			<entity></entity>
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>script writer</value>
+			</role>
+			<entity></entity>
+		</contribute>
+		<contribute>
+			<role>
+				<source>RUS_LOMv1.0</source>
+				<value>announcer</value>
+			</role>
+			<entity></entity>
+		</contribute>
+        <contribute>            <role>                <source>LOMv1.0</source>                <value>technical validator</value>            </role>            <entity></entity>        </contribute>        <contribute>            <role>                <source>LOMv1.0</source>                <value>educational validator</value>            </role>            <entity></entity>        </contribute>        
+		<rl:lastUpdating>
+			<dateTime>2014-03-24</dateTime>
+		</rl:lastUpdating>
+	</lifeCycle>
+	<!--  3_Метаметаданные  -->
+	<metaMetadata>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>creator</value>
+			</role>
+			<entity></entity>
+			<date>
+				<dateTime>2014-03-24</dateTime>
+			</date>
+		</contribute>
+		<metadataSchema>LOMv1.0</metadataSchema>
+		<metadataSchema>RUS_LOMv1.0</metadataSchema>
+		<metadataSchema>FCIORv1.1</metadataSchema>
+		<metadataSchema>MSPKv1.0</metadataSchema>
+	</metaMetadata>
+	<!--  4_Технические характеристики  -->
+	<technical>
+		<format>application/xml</format>
+		<format>text/javascript</format>
+		<format>text/html</format>
+		<format>image/jpeg</format>
+		<format>image/png</format>
+		<format>audio/mpeg</format>
+		<format>audio/x-ogg</format>
+		<format>image/gif</format>
+		<format>application/x-silverlight-app</format>
+		<size></size>
+        <requirement>            <orComposite>                <type>                    <source>LOMv1.0</source>                    <value>browser</value>                </type>                <name>                    <source>LOMv1.0</source>                    <value>ms-internet explorer</value>                </name>                <minimumVersion>9.0</minimumVersion>            </orComposite>              <orComposite>                <type>                    <source>LOMv1.0</source>                    <value>browser</value>                </type>                <name>                    <source>http://educom.ru/xsd/mspk/1.0</source>                    <value>Chrome</value>                </name>            </orComposite>             <orComposite>                <type>                    <source>LOMv1.0</source>                    <value>browser</value>                </type>                <name>                    <source>http://educom.ru/xsd/mspk/1.0</source>                    <value>Firefox</value>                </name>            </orComposite>            <orComposite>                <type>                    <source>LOMv1.0</source>                    <value>browser</value>                </type>                <name>                    <source>http://educom.ru/xsd/mspk/1.0</source>                    <value>Safari</value>                </name>            </orComposite>        </requirement>
+		<rl:preview>
+			<rl:binaryResource>
+				<rl:format>image/jpeg</rl:format>
+				<rl:blob>
+<![CDATA[]]></rl:blob>
+			</rl:binaryResource>
+		</rl:preview>
+	</technical>
+	<!--  5_Образовательные характеристики ИР  -->
+	<educational>
+		<learningResourceType>
+			<source>http://fcior.edu.ru/xsd/metadata/1.1</source>
+			<value>P-module</value>
+		</learningResourceType>
+		<interactivityLevel>
+			<source>LOMv1.0</source>
+			<value>medium</value>
+		</interactivityLevel>
+		<intendedEndUserRole>
+			<source>LOMv1.0</source>
+			<value>learner</value>
+		</intendedEndUserRole>
+		<intendedEndUserRole>
+			<source>LOMv1.0</source>
+			<value>teacher</value>
+		</intendedEndUserRole>
+		<context>
+			<source>LOMv1.0</source>
+			<value>other</value>
+		</context>
+		<typicalLearningTime>
+			<duration>PT20M</duration>
+		</typicalLearningTime>
+		<typicalAgeRange>
+			<string language="ru">14+</string>
+		</typicalAgeRange>
+		<language>ru</language>
+	</educational>
+	<!--  6_Права интеллектуальной собственности на ИР   -->
+	<rights>
+		<cost>
+			<source>LOMv1.0</source>
+			<value>no</value>
+		</cost>
+		<copyrightAndOtherRestrictions>
+			<source>LOMv1.0</source>
+			<value>yes</value>
+		</copyrightAndOtherRestrictions>
+		      <rl:owner></rl:owner>
+		<rl:accessRights>
+			<source>RUS_LOMv1.0</source>
+			<value>free</value>
+		</rl:accessRights>
+	</rights>
+	<!--  9_Классификационные признаки  -->
+	<!--  Уровень и ступень образования  -->
+	<classification>
+		<purpose>
+			<source>LOMv1.0</source>
+			<value>educational level</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="none">RUS_LOMv1.0</string>
+			</source>
+			<taxon>
+				<id>9</id>
+				<entry>
+					<string language="ru">Дополнительное образование</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<!--  Целевое назначение ИР  -->
+	<classification>
+		<purpose>
+			<source>RUS_LOMv1.0</source>
+			<value>resource purpose</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="none">RUS_LOMv1.0</string>
+			</source>
+			<taxon>
+				<id>6</id>
+				<entry>
+				<string language="ru">Учебное</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<!--  Тип ИР   -->
+	<classification>
+		<purpose>
+			<source>RUS_LOMv1.0</source>
+			<value>resource type</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="none">http://educom.ru/xsd/mspk/1.0</string>
+			</source>
+			<taxon>
+				<id>10</id>
+				<entry>
+					<string language="ru">Тренировочная работа</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<!--  Тематика  -->
+	<classification>
+		<purpose>
+			<source>LOMv1.0</source>
+			<value>discipline</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="none">http://educom.ru/xsd/mspk/1.0/further_education-subjects</string>
+			</source>
+			<taxon>
+				<id>1</id>
+				<entry>
+					<string language="ru"></string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>1.6</id>
+				<entry>
+					<string language="ru"></string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<!--  Образовательный компонент   -->
+	<classification>
+		<purpose>
+			<source>RUS_LOMv1.0</source>
+			<value>educational component</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="none">RUS_LOMv1.0</string>
+			</source>
+			<taxon>
+				<id>1</id>
+				<entry>
+					<string language="ru"></string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<!--  Образовательная направленность   -->
+	<classification>
+		<purpose>
+			<source>RUS_LOMv1.0</source>
+			<value>educational purpose</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="ru">http://educom.ru/xsd/mspk/1.0</string>
+			</source>
+			<taxon>
+				<id>9.1</id>
+				<entry>
+					<string language="ru"></string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+</lom>

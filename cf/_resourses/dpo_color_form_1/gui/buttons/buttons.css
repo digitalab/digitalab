@@ -1,0 +1,44 @@
+.ui-button .ui-button-text {
+    padding: 0;
+	line-height: 1;
+}
+.ui-state-default{
+	background: none; border: none;
+	background-image:url('KN.png');	text-decoration:none; font-size:12px; font-family:Arial, Helvetica, sans-serif; 
+	font-weight:bold; text-align:center; color:#ff8503; padding: 9px 10px 9px 0px;
+	display:table-cell; vertical-align:middle;
+}
+.ui-state-hover{
+	background-image:url('KN.png'); color:#ffffff;
+}
+.ui-state-disabled{
+	background-image:url('KNa.png'); color:#ff8503; opacity: 1;
+}
+.ui-corner-all {
+    -moz-border-radius: 0;
+	border-radius: 0;
+}
+.account-text {
+  /*background: url("KNa.png") repeat scroll 0 0 transparent;*/
+  border: medium none;
+  color: #FFFFFF;
+  display: table-cell;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 5px 9px 5px;
+  text-align: left;
+  vertical-align: middle;
+}
+.account-value {
+  /*background: url("KNa.png") repeat scroll 0 0 transparent;*/
+  border: medium none;
+  color: #ced5b4;
+  display: table-cell;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 0px 9px 0px;
+  text-align: center;
+  vertical-align: middle;
+}

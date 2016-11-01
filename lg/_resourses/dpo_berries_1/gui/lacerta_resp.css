@@ -1,0 +1,469 @@
+﻿html, body {
+	background-color:#997c85;
+	/*background-image: url('skin/fon.jpg');#a2a1a0 6d7d8f 080b01 bee6ff*/
+    font: normal 16px/100%  "Trebuchet MS", Helvetica, sans-serif;
+	color: #997c85;
+	/*color: rgb(41, 38, 30);*/
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: visible;
+
+}
+div#scene{
+	background-image: url('skin/fon.jpg');
+	/*background-color:#86976b;*/
+	margin:0 auto;
+	height: 570px;  
+	width: 950px;
+	/*border: 1px  double black;*/	
+}
+
+
+/* #commonBG - > Header*/
+#commonBG {
+	position: absolute;
+	height: 0px;
+	width: 0px;
+}
+
+.topBG{
+	background-color:#637448;
+	/*background-image: url('../media/img/b_centr_info_950x516.jpg');*/
+}
+
+.headerRespText{
+	font-size: 20px;
+	line-height: 1.0;
+	overflow: visible;
+	/*border: 1px solid black;*/
+}
+
+
+
+#currentStep {
+	position: relative;
+}
+
+.title_zone1{
+	line-height: 1.5;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.recommendation{
+	line-height: 1.2;
+	font-size: 18px;
+}
+.recommendation_fon{
+	line-height: 1.2;
+	font-size: 18px;
+	background:#637448;
+}
+.recommendation_pr{
+	line-height: 1.0;
+	font-size: 16px;
+}
+.recommendation_sm{
+	line-height: 1.0;
+	font-size: 14px;
+}
+.r1_float{
+/*bbackground-image: url('skin/title_zone1.png');*/
+}
+
+.r2_float{
+	padding: 5px;
+	background-color:#e2f3ac;
+}
+
+
+.baseRespText {
+	/*margin:10px;*/
+	font-size: 18px;
+	line-height: 1.5;
+}
+.baseRespText_o {
+	/*margin:10px;*/
+	font-size: 16px;
+	line-height: 1.2;
+
+}
+
+
+/* Элемент при наведении на который указателя мыши
+   - его изображение измениться на активную картинку
+*/
+.activeElement {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.tableDefault {
+	width:100%;
+	height:100%;
+	border:1px solid #000;
+	border-collapse:collapse;
+	padding:0px;
+}
+.tableDefault th {
+	height:30px;
+	border:1px solid #000;
+	padding:0px;
+	background:#AFB784;
+}
+.tableDefault td {
+	border:1px solid #000;
+	padding:5px;
+	background:#BEC1AC;
+}
+
+
+
+/** Описание группы объектов
+ */
+.groupDefault {
+	/* border: 3px double black; */
+	overflow: visible;
+	position: absolute; 
+}
+/** Описание группы объектов
+ */
+.zoneDefault {
+	overflow: visible;
+	position: absolute;
+	background:url('skin/transper99.gif');
+}
+
+/** Описание текстового блока
+ */
+.textDefault {
+	margin: 0;
+	position: absolute; 
+	overflow: visible;
+	padding-right: 3px;
+}
+
+.collectionDefault {
+	position: absolute; 
+	overflow: auto;
+}
+
+/** Описание титулов для коллекции
+ */
+.titleDefault {
+	text-align:center;
+	font-size: 1.3em;
+	position: absolute; 
+	overflow: visible;
+	/*padding-right: 3px;*/
+}
+
+/** Описание поля ввода
+ */
+.inputDefault {
+	position: absolute; 
+	overflow: visible;
+}
+
+.inputDefault2 {
+    color: #3d465a;
+    font-size: 18px;
+	border: 1px solid #3d465a;
+}
+
+img {
+	display: block; /* block | inline | inline-table | list-item | none |
+ run-in | table | table-caption | table-cell | table-column-group |
+  table-footer-group | table-header-group | table-row | table-row-group | inline-block */
+}
+
+.imageDivDefault{
+	/*border: 1px double black;*/ 
+	overflow: visible;
+	position: absolute;
+
+}
+.imageDivRelDefault{
+	background:url('skin/transper99.gif');
+}
+
+.imageDefault{
+	/* border: 1px double black; */
+	border: none;
+	overflow: visible; /* overflow: auto | hidden | scroll | visible | inherit */
+	position: absolute; /* position: absolute | fixed | relative | static | inherit  */
+}
+
+
+.buttonDefault{
+	/*border: 1px double black;*/
+	overflow: visible; /* overflow: auto | hidden | scroll | visible | inherit */
+	position: absolute; /* position: absolute | fixed | relative | static | inherit  */
+}
+
+.relations-layout{
+	display: none;
+} 
+
+.relations-layout2{
+    margin-top: 30px;
+	margin-left: 30px;
+} 
+
+#largeImage{
+position: absolute;
+padding: .5em;
+background: #e3e3e3;
+border: 1px solid #BFBFBF;
+}
+
+
+a img {
+border: none;
+}
+
+.lacertaImgButton{
+  top: 0px;
+  left: 0px
+}
+
+.ui-target-active-def{
+	border: 1px solid #00ff00;	
+}
+
+.ui-target-hover-def{
+	border: 1px solid #0000ff;
+	margin-left: -1px;
+	margin-top: -1px;	
+	/*padding-top: 5px;*/
+}
+/* .ui-state-disabled переопредялет, заданный  в файле jquery-ui-1.8.2.custom.css, одноименный стиль,
+   предназначенный для отображения установленных в целевую зону объектов, получивших статус disable */
+.ui-state-disabled{
+opacity:0.65;
+}
+
+.connectDef{	
+	border-width: 1px;
+	margin-left: -1px;
+	margin-top: -1px;
+	background: #cfd4da;	/*cfd4da-серый  */
+}
+.connectDef1{
+	border-style: solid;
+	border-width: 1px;
+	margin-left: -1px;
+	margin-top: -1px;	
+}
+.connectDef2{
+	border-width: 5px;
+	margin-left: -5px;
+	margin-top: -5px;
+	background: #00ffffff;  /* 00ffffff - прозрачный */
+	border-style: solid;
+	border-color: #f71094;
+}
+.connectDef7{
+	border-style: solid;
+	border-color: brown;
+	border-width: 2px;
+	margin-left: -2px;
+	margin-top: -2px;	
+}
+.null_img{
+	background-color: transparent;
+}
+
+/* input {
+	border-left: 1px solid #f0eeea;
+	border-right: 1px solid #f0eeea;
+	border-top: 1px solid #adaca9;
+	border-bottom: 1px solid #faf8f4;
+} */
+
+.border1, .b1{
+	border-style: solid;
+	border-width: 1px;
+}
+
+.border2, .b2{
+	border-style: solid;
+	border-width: 2px;
+}
+
+.border3, .b3{
+	border-style: solid;
+	border-width: 3px;
+}
+
+.borderRed, .bR{
+	border-color:#f00;
+}
+.borderGreen, .bG{
+	border-color:rgb(81, 78, 70);	
+}
+.borderWhite, .bW{
+	border-color:rgb(243, 243, 242);
+}
+.borderYllow, .bY{
+	border-color:rgb(255, 255, 0);
+}
+.borderGrey, .bGry{
+	border-color:#f0e5e1;
+}
+
+.imgHintDefault{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	z-index:1100;	
+	display:none;
+}
+
+.htmlHintDefault{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding: 14px 20px;
+	margin: 0px -10px 0px -15px;
+	color:#333;
+	z-index:1100;
+	width: 300px; 	
+	display:none;
+}
+
+/*  Стилевая разметка элементов интерфейса учебных сцен */
+/*===============================================*/
+.whitebox {
+	background-color: #f9f7f2;
+	border-top: 1px solid #adaca9;
+	border-bottom: 1px solid #ffffff;
+	border-left: 1px solid #f0eeea;
+	border-right: 1px solid #f0eeea;
+}
+
+.green, .g {
+	color: #009055;	
+}
+.brown, .brw {
+	color: rgb(75, 38, 14);	
+}
+.brown, .blk {
+	color: #000000;		
+}
+.red, .r {
+	color: #f00;
+}
+.blue, .bl {
+	color: #0640c4;	
+}
+.white, .w {
+	color: rgb(243, 243, 242);	
+}
+.orange, .o {
+	color: rgb(227, 131, 37);	
+}
+
+.lilac, .lil {
+	color: #972566;	
+}
+
+.colwrong, .clrw {
+	color: #e56655;
+}
+ 
+.bold, .b {
+	font-weight: bold;
+}
+
+.semibold, .sb {
+	font-weight: 600;
+}
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.justify {
+	text-align: justify;
+}
+
+
+.interline_a, .il_a{
+	line-height: 1.5;
+}
+
+
+.HeaderStyle{
+	font-size: 18px;
+	font-family: "Nimbus Sans L",  Geneva, Verdana, sans-serif;
+	/*font-weight: bold; */
+	color: rgb(243, 243, 242);
+}
+
+.TaskTextStile{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.captionDefault{
+	margin: 0;
+	font-size: 16px;
+	/* line-height: 1.2; */
+	font-weight: bold;
+	color: rgb(81, 78, 70);	
+	background-color: #e3e8d2;
+	padding-left: 10px;
+	padding-top: 5px;
+	border: 1px solid black; 
+}
+
+.captionDefault1 {
+	margin: 0;
+	font-size: 16px;
+	/* line-height: 1.2; */
+	font-weight: bold;
+	color: rgb(81, 78, 70);	
+	background-color: #e3e8d2;
+	padding-left: 10px;
+	padding-top: 5px;
+	border: 1px solid black; 
+}
+
+.textDefault1 {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: bold;
+	color: rgb(81, 78, 70);	
+	background-color: #e3e8d2;
+	padding-left: 10px;
+	padding-top: 5px;
+	border: 1px solid black; 
+	}
+
+iframe {
+	border: 0px none;
+}
+
+.noneBorder {
+	border: 0px none;
+}
+
+.headerText{
+	font-size: 20px;
+	color: #ff7800;
+}

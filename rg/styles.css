@@ -1,0 +1,191 @@
+body, html {
+    /*background-color: #fdfdfd;*/
+    background-image: url("_images/bodybg.png");
+    background-attachment: fixed;
+    min-height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#content {
+    min-height: 100%;
+    position: relative;
+}
+
+
+/*общий заголовок*/
+.capt {
+    background-color: rgb(114,80,124);
+    color: #eee;
+    display: block;
+    font: 20pt SegoeUIBold, Tahoma;
+    margin: 10px auto;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+.capt-small {
+    background-color: rgb(114,80,124);
+    color: #eee;
+    display: block;
+    font: 14pt SegoeUIRegular, Tahoma;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    word-wrap: break-word;
+}
+.lnk {
+    color: #eee;
+    font-weight: bold;
+}
+
+/*стиль для панельки скачаивания приложений*/
+.install {
+    background-color: #ddd;
+    /*border: 1px solid #aaa;*/
+    color: #555;
+    display: block;
+    font: 10pt SegoeUISemiBold, Tahoma;
+    float: left;
+    margin: 10px auto;
+    padding: 10px 0px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+/*колонки с резиновой шириной*/
+.layout {
+    display: block;
+    height: 100px;
+    left: 25%;
+    position: relative;
+    width: 50%;
+}
+    /*нижние колонки одинаковой ширины*/
+    .st1 {
+        float: left;
+        position: relative;
+        width: 33.3%;
+    }
+
+/*жирность текста*/
+.bolder {
+    font-weight: bold;
+}
+
+/*дно с копирайтом*/
+.dno {
+    color: #555;
+    display: block;
+    text-align: right;
+    font: 12px Tahoma;
+    height: 30px;
+    line-height: 14px;
+    margin: 15px;
+    position: relative;
+    width: 50%;
+}
+
+/*стиль для таблицы*/
+table {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    font: 12pt Tahoma;
+    margin: 10px auto;
+    position: relative;
+    width: 50%;
+    word-wrap: break-word;
+}
+    /*при наведении курсора на строки - выделять их рамочкой*/
+    table tr:hover td:first-child:before {
+        border: 1px solid #777777;
+        content: '';
+        height: 39px;
+        left: 0px;
+        margin-left: -1px;
+        margin-top: -11px;
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+    }
+
+    table td, table th {
+        padding: 10px 2px;
+    }
+
+/*заголовок таблицы*/
+th.tbl-cptn {
+    background-color: #ddd;
+    text-align: center;
+    width: 1%;
+    word-wrap: break-word;
+}
+
+/*формат ячеек с номерами*/
+td.tbl-nmbr {
+    text-align: center;
+    width: 1%;
+    color: #999;
+}
+/*формат ячеек с названи€ми ЭОР-ов*/
+td.tbl-nm {
+    text-align: left;
+    width: 20%;
+}
+/*формат для ссылок*/
+td.tbl-lnk {
+    text-align: center;
+    width: 5%;
+}
+
+/*бледно-серый цвет*/
+tr.clr1 {
+    background-color: #fafafa;
+}
+/*белый цвет*/
+tr.clr2 {
+    background-color: #fff;
+}
+
+/*без подчёркивания ссылок*/
+a {
+    text-decoration: none;
+}
+
+
+/*****************************************************/
+
+/*всплывающие картинки под названи€ми ЭОР-ов*/
+.tooltip {
+    outline: none;
+    position: relative;
+    text-decoration: none;
+}
+    .tooltip span {
+      height: 10px;
+      /*margin-left: -999em;*/
+      position: absolute;
+      visibility: hidden;
+      z-index: 0;
+    }
+    .tooltip:hover span {
+        left: 10px;
+        margin-left: -11px;
+        margin-top: -11px;
+        position: absolute;
+        top: 40px;
+        z-index: 10;
+      width: 50px;
+    }
+    .tooltip:hover img {
+        border: 1px solid #777777;
+        margin: auto;
+        position: absolute;
+        visibility: visible;
+        width: 250px;
+        height: 150px;
+    }

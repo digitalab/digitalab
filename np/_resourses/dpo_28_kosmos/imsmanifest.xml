@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><manifest identifier="URN:X-RUS-LIB-MSPK:C5A900F9-B38C-458F-BCF8-A6173E2083DC"
+ 		xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+ 		xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"		xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd 		http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd">
+	<metadata>
+    	<schema>ADL SCORM</schema>
+    	<schemaversion>2004 4th Edition</schemaversion>
+    	<adlcp:location>metadata.xml</adlcp:location>	<!-- Ссылка на XML-файл метаданных ИОМ --> 
+	</metadata>
+  
+	<organizations default="ORG.1">
+    	<organization identifier="ORG.1">
+			<title>Космос</title>
+				<item identifier="ORG.1.1" identifierref="RESOURCE.1">	<!-- Логическая точка входа в ИОМ: элемент item, ссылающийся на физический ресурс -->
+					<title>Космос</title>
+                </item> 		</organization>	</organizations> 	<resources> 		<resource identifier="RESOURCE.1" type="webcontent" adlcp:scormType="sco" href="index.htm">      <!-- Физическая точка входа в ИОМ: ссылка на файл (SCO), запускаемый в web-браузере -->
+			<file href="gui/lacerta_big.css"/>
+			<file href="gui/lacerta_middle.css"/>
+			<file href="gui/lacerta_resp.css"/>
+			<file href="gui/lacerta_small.css"/>
+			<file href="gui/result_viewer.css"/>
+			<file href="gui/buttons/-mal_a.png"/>
+			<file href="gui/buttons/buttons.css"/>
+			<file href="gui/buttons/KN.png"/>
+			<file href="gui/buttons/KNa.png"/>
+			<file href="gui/buttons/mal_a.png"/>
+			<file href="gui/buttons/mal_b.png"/>
+			<file href="gui/buttons/mal_c.png"/>
+			<file href="gui/buttons/mal_d.png"/>
+			<file href="gui/kn/1b_a.png"/>
+			<file href="gui/kn/1b_n.png"/>
+			<file href="gui/kn/2b_a.png"/>
+			<file href="gui/kn/2b_n.png"/>
+			<file href="gui/kn/3b_a.png"/>
+			<file href="gui/kn/3b_n.png"/>
+			<file href="gui/kn/b_menu_over.png"/>
+			<file href="gui/kn/b_menu_up.png"/>
+			<file href="gui/kn/b_menu_up_over.png"/>
+			<file href="gui/kn/ik_menu.png"/>
+			<file href="gui/kn/ik_menu_a.png"/>
+			<file href="gui/kn/menu_a.png"/>
+			<file href="gui/kn/menu_n2.png"/>
+			<file href="gui/skin/buttons/-pause.png"/>
+			<file href="gui/skin/buttons/-play.png"/>
+			<file href="gui/skin/buttons/b_left_norm.png"/>
+			<file href="gui/skin/buttons/b_left_over.png"/>
+			<file href="gui/skin/buttons/b_next.png"/>
+			<file href="gui/skin/buttons/b_next_over.png"/>
+			<file href="gui/skin/buttons/b_prev.png"/>
+			<file href="gui/skin/buttons/b_prev_over.png"/>
+			<file href="gui/skin/buttons/b_right_norm.png"/>
+			<file href="gui/skin/buttons/b_right_over.png"/>
+			<file href="gui/skin/buttons/close_a.png"/>
+			<file href="gui/skin/buttons/close_a_.png"/>
+			<file href="gui/skin/buttons/close_n.png"/>
+			<file href="gui/skin/buttons/close_n_.png"/>
+			<file href="gui/skin/buttons/Kn_stop.png"/>
+			<file href="gui/skin/buttons/nazad_a.png"/>
+			<file href="gui/skin/buttons/nazad_n.png"/>
+			<file href="gui/skin/buttons/next3.png"/>
+			<file href="gui/skin/buttons/next3_a.png"/>
+			<file href="gui/skin/buttons/pause.png"/>
+			<file href="gui/skin/buttons/pause_.png"/>
+			<file href="gui/skin/buttons/play.png"/>
+			<file href="gui/skin/buttons/play_.png"/>
+			<file href="gui/skin/buttons/preloader.gif"/>
+			<file href="gui/skin/buttons/proverka_a.png"/>
+			<file href="gui/skin/buttons/sound_a.png"/>
+			<file href="gui/skin/buttons/sound_n.png"/>
+			<file href="gui/skin/fon_pl.jpg"/>
+			<file href="gui/skin/fon_pl2.jpg"/>
+			<file href="gui/skin/null.png"/>
+			<file href="gui/skin/Pl_niz.png"/>
+			<file href="gui/skin/title_pl.jpg"/>
+			<file href="gui/skin/transper99.gif"/>
+			<file href="gui/smoothness/images/animated-overlay.gif"/>
+			<file href="gui/smoothness/images/ui-anim_basic_16x16.gif"/>
+			<file href="gui/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png"/>
+			<file href="gui/smoothness/images/ui-bg_flat_75_ffffff_40x100.png"/>
+			<file href="gui/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png"/>
+			<file href="gui/smoothness/images/ui-bg_glass_65_ffffff_1x400.png"/>
+			<file href="gui/smoothness/images/ui-bg_glass_75_dadada_1x400.png"/>
+			<file href="gui/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png"/>
+			<file href="gui/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png"/>
+			<file href="gui/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png"/>
+			<file href="gui/smoothness/images/ui-icons_222222_256x240.png"/>
+			<file href="gui/smoothness/images/ui-icons_2e83ff_256x240.png"/>
+			<file href="gui/smoothness/images/ui-icons_454545_256x240.png"/>
+			<file href="gui/smoothness/images/ui-icons_888888_256x240.png"/>
+			<file href="gui/smoothness/images/ui-icons_cd0a0a_256x240.png"/>
+			<file href="gui/smoothness/jquery-ui-1.10.1.custom.css"/>
+			<file href="media/audio/izobretatel_korolev.mp3"/>
+			<file href="media/audio/izobretatel_korolev.ogg"/>
+			<file href="media/audio/jivotnye.mp3"/>
+			<file href="media/audio/jivotnye.ogg"/>
+			<file href="media/audio/kometa.mp3"/>
+			<file href="media/audio/kometa.ogg"/>
+			<file href="media/audio/kosmicheskaya_stanciya.mp3"/>
+			<file href="media/audio/kosmicheskaya_stanciya.ogg"/>
+			<file href="media/audio/kosmonavt_gagarin.mp3"/>
+			<file href="media/audio/kosmonavt_gagarin.ogg"/>
+			<file href="media/audio/kosmonavt_leonov.mp3"/>
+			<file href="media/audio/kosmonavt_leonov.ogg"/>
+			<file href="media/audio/kosmonavt_tereshkova.mp3"/>
+			<file href="media/audio/kosmonavt_tereshkova.ogg"/>
+			<file href="media/audio/luna_solnce.mp3"/>
+			<file href="media/audio/luna_solnce.ogg"/>
+			<file href="media/audio/lunohod.mp3"/>
+			<file href="media/audio/lunohod.ogg"/>
+			<file href="media/audio/meteorit.mp3"/>
+			<file href="media/audio/meteorit.ogg"/>
+			<file href="media/audio/muzey.mp3"/>
+			<file href="media/audio/muzey.ogg"/>
+			<file href="media/audio/orbitalnaya_stanciya.mp3"/>
+			<file href="media/audio/orbitalnaya_stanciya.ogg"/>
+			<file href="media/audio/raketa.mp3"/>
+			<file href="media/audio/raketa.ogg"/>
+			<file href="media/audio/skafandr.mp3"/>
+			<file href="media/audio/skafandr.ogg"/>
+			<file href="media/audio/solnechnaya_sistema.mp3"/>
+			<file href="media/audio/solnechnaya_sistema.ogg"/>
+			<file href="media/audio/sputnik.mp3"/>
+			<file href="media/audio/sputnik.ogg"/>
+			<file href="media/audio/zemlya.mp3"/>
+			<file href="media/audio/zemlya.ogg"/>
+			<file href="media/audio/zvezdnoe_nebo.mp3"/>
+			<file href="media/audio/zvezdnoe_nebo.ogg"/>
+			<file href="media/ico_ipk/i-type.gif"/>
+			<file href="media/ico_ipk/k-type.gif"/>
+			<file href="media/ico_ipk/p-type.gif"/>
+			<file href="media/img/1_1.jpg"/>
+			<file href="media/img/1_2.jpg"/>
+			<file href="media/img/1_3.jpg"/>
+			<file href="media/img/1_4.jpg"/>
+			<file href="media/img/1_5.jpg"/>
+			<file href="media/img/1_6.jpg"/>
+			<file href="media/img/1_7.jpg"/>
+			<file href="media/img/2_0.jpg"/>
+			<file href="media/img/2_10.jpg"/>
+			<file href="media/img/2_10s.jpg"/>
+			<file href="media/img/2_11s.jpg"/>
+			<file href="media/img/2_11_1.jpg"/>
+			<file href="media/img/2_11_2.jpg"/>
+			<file href="media/img/2_11_3.jpg"/>
+			<file href="media/img/2_11_4.gif"/>
+			<file href="media/img/2_12s.jpg"/>
+			<file href="media/img/2_12_1.jpg"/>
+			<file href="media/img/2_12_2.jpg"/>
+			<file href="media/img/2_12_3.jpg"/>
+			<file href="media/img/2_12_4.jpg"/>
+			<file href="media/img/2_12_5.jpg"/>
+			<file href="media/img/2_12_5.png"/>
+			<file href="media/img/2_13.jpg"/>
+			<file href="media/img/2_13s.jpg"/>
+			<file href="media/img/2_14s.jpg"/>
+			<file href="media/img/2_14_1.jpg"/>
+			<file href="media/img/2_14_2.jpg"/>
+			<file href="media/img/2_15s.jpg"/>
+			<file href="media/img/2_15_1.jpg"/>
+			<file href="media/img/2_15_2.jpg"/>
+			<file href="media/img/2_16s.jpg"/>
+			<file href="media/img/2_16_1.jpg"/>
+			<file href="media/img/2_16_2.jpg"/>
+			<file href="media/img/2_16_3.jpg"/>
+			<file href="media/img/2_16_4.jpg"/>
+			<file href="media/img/2_17s.jpg"/>
+			<file href="media/img/2_17_1.png"/>
+			<file href="media/img/2_17_2.jpg"/>
+			<file href="media/img/2_17_3.jpg"/>
+			<file href="media/img/2_17_4.jpg"/>
+			<file href="media/img/2_17_5.jpg"/>
+			<file href="media/img/2_17_6.jpg"/>
+			<file href="media/img/2_18s.jpg"/>
+			<file href="media/img/2_1s.jpg"/>
+			<file href="media/img/2_1_1.jpg"/>
+			<file href="media/img/2_1_2.jpg"/>
+			<file href="media/img/2_1_3.jpg"/>
+			<file href="media/img/2_1_4.jpg"/>
+			<file href="media/img/2_2s.jpg"/>
+			<file href="media/img/2_2_1.jpg"/>
+			<file href="media/img/2_2_2.png"/>
+			<file href="media/img/2_2_3.jpg"/>
+			<file href="media/img/2_3s.jpg"/>
+			<file href="media/img/2_3_1.png"/>
+			<file href="media/img/2_3_2.png"/>
+			<file href="media/img/2_4s.jpg"/>
+			<file href="media/img/2_4_1.png"/>
+			<file href="media/img/2_4_2.png"/>
+			<file href="media/img/2_4_3.jpg"/>
+			<file href="media/img/2_5s.jpg"/>
+			<file href="media/img/2_5_1.jpg"/>
+			<file href="media/img/2_5_2.jpg"/>
+			<file href="media/img/2_6s.jpg"/>
+			<file href="media/img/2_6_1.jpg"/>
+			<file href="media/img/2_6_2.jpg"/>
+			<file href="media/img/2_6_3.jpg"/>
+			<file href="media/img/2_6_4.jpg"/>
+			<file href="media/img/2_7s.jpg"/>
+			<file href="media/img/2_7_1.jpg"/>
+			<file href="media/img/2_7_2.png"/>
+			<file href="media/img/2_8s.jpg"/>
+			<file href="media/img/2_8_1.jpg"/>
+			<file href="media/img/2_8_2.jpg"/>
+			<file href="media/img/2_9s.jpg"/>
+			<file href="media/img/2_9_1.jpg"/>
+			<file href="media/img/2_9_2.jpg"/>
+			<file href="media/img/2_9_3.jpg"/>
+			<file href="media/img/2_9_4.jpg"/>
+			<file href="media/img/2_9_5.jpg"/>
+			<file href="media/img/fon_pl_17.png"/>
+			<file href="media/img/fon_pl_all.png"/>
+			<file href="media/video/Comp_1.mp4"/>
+			<file href="media/video/Comp_1.webm"/>
+			<file href="media/video/Comp_2.mp4"/>
+			<file href="media/video/Comp_2.webm"/>
+			<file href="media/video/Comp_3.mp4"/>
+			<file href="media/video/Comp_3.webm"/>
+			<file href="media/video/patch_button.png"/>
+			<file href="media/video/poster.jpg"/>
+			<file href="media/video/videoplayer.xap"/>
+			<file href="scripts/jquery.touchable.js"/>
+			<file href="scripts/modernizr.custom.js"/>
+			<file href="scripts/responsive_lacerta_min.js"/>
+			<file href="scripts/toolbox.flashembed.js"/>
+			<file href="scripts/jquery/jquery-1.9.1.min.js"/>
+			<file href="scripts/jquery/jquery-ui-1.10.1.custom.min.js"/>
+			<file href="scripts/scorm/APIWrapper.js"/>
+			<file href="index.htm"/>
+			<file href="message.htm"/>
+			<file href="metadata.xml"/>
+<!-- Перечисление всех файлов, используемых в ИОМ и представленных в ДП -->        </resource>    </resources></manifest>

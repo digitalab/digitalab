@@ -1,0 +1,435 @@
+﻿html{
+	/*background-image: url('skin/fon.png');#e4c696;dae3c4*/
+	background-color:#192c57;
+}
+html, body {
+	/*background-color:#b8c698;*/
+    font: normal 16px/100%  Verdana, "Nimbus Sans L", Geneva, sans-serif;
+	color: #080b01;
+	/*color: rgb(41, 38, 30);*/
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: visible;
+
+}
+div#scene{
+	background-color:#5475a7;
+	/*background-image: url('skin/fon_pl.png');*/
+	margin:0 auto;
+	height: 570px;  
+	width: 950px;
+	/*border: 1px  double black;*/	
+}
+
+
+/* #commonBG - > Header*/
+#commonBG {
+	/*position: absolute;*/
+	/*background-image: url('skin/fon2.jpg');*/
+	position: relative;
+	/*height: 39px; */
+	height: 0px;
+	width: 950px;
+	/*margin-bottom: -4%;*/
+	/*background:#ccffcc;*/
+}
+
+.headerRespText{
+	height: 0px;  
+	width: 0px;	
+	font-size: 20px;
+	overflow: visible;
+}
+.link_style > a{
+    color: #ffffff;
+	text-decoration: none;
+}
+.link_style > a:link{
+	color: #ffffff;
+}
+.link_style > a:visited{
+	color: #900090;
+}
+
+#checkedLinkDefault{
+	color: #e10f32;
+}
+
+#currentStep {
+	position: relative;
+}
+
+.title_zone1{
+	line-height: 1.5;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.recommendation{
+	line-height: 1.2;
+	font-size: 18px;
+}
+.recommendation_1{
+	line-height: 1.5;
+	font-size: 18px;
+}
+.r1_float{
+/*bbackground-image: url('skin/title_zone1.png');*/
+}
+
+.r2_float{
+	padding: 10px;
+	background-color:#e2f3ac;
+}
+
+
+.baseRespText {
+	/*margin:10px;*/
+	font-size: 18px;
+	line-height: 1.2;
+}
+.baseRespText_15 {
+	/*margin:10px;*/
+	font-size: 18px;
+	line-height: 1.5;
+}
+.baseRespText_o {
+	/*margin:10px;*/
+	font-size: 16px;
+	line-height: 1.2;
+}
+.baseRespText_o_r {
+	/*margin:10px;e3e8d2*/
+	font-size: 16px;
+	line-height: 1.2;
+	background-color: #efebd7;
+	border: 1px solid black; 
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+.txt_res {
+	font-size: 40px;
+	color: #4586b5;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+.txt_res_shadow {
+	font-size: 40px;
+	color: #b86d6d;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/* 2461b2Элемент при наведении на который указателя мыши
+   - его изображение измениться на активную картинку
+*/
+.activeElement {
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+
+/** Описание группы объектов
+ */
+.groupDefault {
+	/* border: 3px double black; */
+	overflow: visible;
+	position: absolute; 
+}
+/** Описание группы объектов
+ */
+.zoneDefault {
+	overflow: visible;
+	position: absolute;
+	background:url('skin/transper99.gif');
+}
+
+/** Описание текстового блока
+ */
+.textDefault {
+	margin: 0;
+	position: absolute; 
+	overflow: auto;
+	padding-right: 3px;
+}
+
+.collectionDefault {
+	position: absolute; 
+	overflow: auto;
+}
+
+/** Описание титулов для коллекции
+ */
+.titleDefault {
+	text-align:center;
+	font-size: 1.3em;
+	position: absolute; 
+	overflow: auto;
+	padding-right: 3px;
+}
+
+/** Описание поля ввода
+ */
+.inputDefault {
+	position: absolute; 
+	overflow: visible;
+}
+
+.inputDefault2 {
+    color: #514E46;
+    font-size: 18px;
+}
+
+img {
+	display: block; /* block | inline | inline-table | list-item | none |
+ run-in | table | table-caption | table-cell | table-column-group |
+  table-footer-group | table-header-group | table-row | table-row-group | inline-block */
+}
+
+.imageDivDefault{
+	/*border: 1px double black;*/ 
+	overflow: visible;
+	position: absolute;
+
+}
+.imageDivRelDefault{
+	background:url('skin/transper99.gif');
+}
+
+.imageDefault{
+	/* border: 1px double black; */
+	border: none;
+	overflow: visible; /* overflow: auto | hidden | scroll | visible | inherit */
+	position: absolute; /* position: absolute | fixed | relative | static | inherit  */
+}
+
+
+.buttonDefault{
+	/*border: 1px double black;*/
+	overflow: visible; /* overflow: auto | hidden | scroll | visible | inherit */
+	position: absolute; /* position: absolute | fixed | relative | static | inherit  */
+}
+
+.relations-layout{
+	display: none;
+} 
+
+.relations-layout2{
+    margin-top: 30px;
+	margin-left: 30px;
+} 
+
+#largeImage{
+position: absolute;
+padding: .5em;
+background: #e3e3e3;
+border: 1px solid #BFBFBF;
+}
+
+#largeText{
+position: absolute;
+padding: .5em;
+background: #e3e3e3;
+border: 1px solid #BFBFBF;
+width: 150px; /* Ширина блока */
+}
+
+a img {
+border: none;
+}
+a {
+    color: blue; /* Цвет ссылок */
+}
+ a:active {
+    color: yellow; /*цвет активных ссылок*/
+}
+
+.lacertaImgButton{
+  top: 0px;
+  left: 0px
+}
+
+.ui-target-active-def{
+	border: 1px solid #00ff00;	
+}
+
+.ui-target-hover-def{
+	border: 1px solid #0000ff;
+	margin-left: -1px;
+	margin-top: -1px;	
+	/*padding-top: 5px;*/
+}
+/* .ui-state-disabled переопредялет, заданный  в файле jquery-ui-1.8.2.custom.css, одноименный стиль,
+   предназначенный для отображения установленных в целевую зону объектов, получивших статус disable */
+.ui-state-disabled{
+opacity:0.65;
+}
+
+.connectDef{
+	border-style: solid;
+	border-width: 2px;
+	margin-left: -1px;
+	margin-top: -1px;	
+}
+
+.border1, .b1{
+	border-style: solid;
+	border-width: 1px;
+}
+
+.border2, .b2{
+	border-style: solid;
+	border-width: 2px;
+}
+
+.border3, .b3{
+	border-style: solid;
+	border-width: 3px;
+}
+
+.borderRed, .bR{
+	border-color:#f00;
+}
+.borderGreen, .bG{
+	border-color:rgb(81, 78, 70);	
+}
+.borderWhite, .bW{
+	border-color:rgb(243, 243, 242);
+}
+.borderYllow, .bY{
+	border-color:rgb(255, 255, 0);
+}
+
+.imgHintDefault{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	z-index:1100;	
+	display:none;
+}
+
+.htmlHintDefault{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding: 14px 20px;
+	margin: 0px -10px 0px -15px;
+	color:#333;
+	z-index:1100;
+	width: 300px; 	
+	display:none;
+}
+
+/*  Стилевая разметка элементов интерфейса учебных сцен */
+/*===============================================*/
+.green, .g {
+	color: rgb(81, 78, 70);	
+}
+.brown, .brw {
+	color: rgb(75, 38, 14);	
+}
+.red, .r {
+	color: #f00;
+}
+.white, .w {
+	color: rgb(243, 243, 242);	
+}
+.blue, .bl {
+	color: #2e5197
+}
+.bold, .b {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.justify {
+	text-align: justify;
+}
+
+
+.interline_a, .il_a{
+	line-height: 1.5;
+}
+
+
+.HeaderStyle{
+	font-size: 18px;
+	font-family: "Nimbus Sans L",  Geneva, Verdana, sans-serif;
+	/*font-weight: bold; */
+	color: rgb(243, 243, 242);
+}
+
+.TaskTextStile{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.captionDefault{
+	margin: 0;
+	font-size: 16px;
+	/* line-height: 1.2; */
+	font-weight: bold;
+	color: rgb(81, 78, 70);	
+	background-color: #e3e8d2;
+	padding-left: 10px;
+	padding-top: 5px;
+	border: 1px solid black; 
+}
+
+.captionDefault1 {
+	margin: 0;
+	font-size: 16px;
+	/* line-height: 1.2; */
+	font-weight: bold;
+	color: rgb(81, 78, 70);	
+	background-color: #e3e8d2;
+	padding-left: 10px;
+	padding-top: 5px;
+	border: 1px solid black; 
+}
+
+.textDefault1 {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: bold;
+	color: rgb(81, 78, 70);	
+	background-color: #e3e8d2;
+	padding-left: 10px;
+	padding-top: 5px;
+	border: 1px solid black; 
+	}
+
+iframe {
+	border: 0px none;
+}
+
+.noneBorder {
+	border: 0px none;
+}
+
+.headerText{
+	font-size: 20px;
+	color: #ff7800;
+}

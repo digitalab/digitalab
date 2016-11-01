@@ -1,0 +1,82 @@
+﻿/* 
+ * 
+*/
+div#transparentBG {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 10%;  
+	width: 10%;
+	z-index: 1470;
+	background-color:#ffccff;
+}
+
+#resultViewer {
+	/*position: absolute;*/
+	position: relative;
+	height: 100%;  
+	width: 100%;
+	z-index: 1500;
+	background-image: url('skin/result_BG.jpg');
+	/*overflow: scroll;*/
+}
+
+#top_block {
+	margin:0 auto;
+	height: 10%; 
+	
+}
+#midle_block {
+	margin:0 auto;
+	height: 10%; 
+	
+}
+#bottom_block {
+	margin:0 auto;
+	height: 10%; 
+	
+}
+#commonResultTable {
+	margin:0 auto;
+	width: 75%;  /* Ширина таблицы */
+	height: 20%;/* Высота таблицы */
+	border-spacing: 1px;
+	/* border: 1px solid #399; Граница вокруг таблицы */
+	/* border-spacing: 7px 5px; Расстояние между границ */
+	 /*http://htmlbook.ru/css/height*/
+}
+table#commonResultTable > thead > tr > th {
+    background: #fff; /* Цвет фона */
+   /* border: 1px solid #333; Граница вокруг ячеек */
+    padding: 5px; /* Поля в ячейках */ 
+   }
+table#commonResultTable > tbody > tr > td {
+    background: #fff; /* Цвет фона */
+     /* border: 1px solid #333;Граница вокруг ячеек */
+    padding: 5px; /* Поля в ячейках */ 
+	text-align: center;
+}
+
+   
+   
+#objResultTable {
+	margin:0 auto;
+	width: 90%; /* Ширина таблицы */
+	border-spacing: 1px;	
+	border: 1px solid #399; /*Граница вокруг таблицы */
+	/* border-spacing: 7px 5px; Расстояние между границ */
+	 /*http://htmlbook.ru/css/height*/
+}
+table#objResultTable > thead > tr > th {
+    background: #fff; /* Цвет фона */
+    /*border: 1px solid #333; Граница вокруг ячеек */
+    padding: 5px; /* Поля в ячейках */ 
+   }
+table#objResultTable > tbody > tr > td {
+    background: #fff; /* Цвет фона */
+    /*border: 1px solid #333;  Граница вокруг ячеек */
+    padding: 5px; /* Поля в ячейках */ 
+   }
+   
+   
+   
