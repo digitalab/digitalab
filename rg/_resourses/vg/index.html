@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Времена года</title>	
+		
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta  id="testViewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.9, maximum-scale=3.0">
+	
+	<link href="media/ico_ipk/p-type.gif" rel="shortcut icon" type="image/gif" /> 
+	
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="media/ico_ipk/p-type.gif">
+	<link rel="apple-touch-icon" href="media/ico_ipk/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="media/ico_ipk/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="media/ico_ipk/apple-touch-icon-114x114.png">
+	
+	<script type="text/javascript">
+		var gMobileSmallCSS = "gui/lacerta_small.css";		
+		var gMobileMiddleCSS = "";
+		//var gMobileNormalCSS = "";
+		var gMobileBigCSS = "";
+		//var gMobileScalingFactor = {small:0.5,middle:0.9,normal:1,big:1};
+		var gLandscapeW = 950;
+		var gLandscapeH = 570;
+		//var gPortraitW = 640;
+		//var gPortraitH = 860;
+		var gPortraitW = 950;
+		var gPortraitH = 570;
+		var gButtonMobIePatch = "media/video/patch_button.png"; // для исправления бага в IE10 связанного с ошибкой, возникающей при уменьшении масштаба видео
+		<!--var gPortraitMode = "on";--> //"on||off||auto", default : "auto"
+	</script>
+		
+		<!--Для информационного модуля использовать i-type.ico, для практического p-type.ico, для контрольного k-type.ico-->
+<!--**************************************************************************************-->
+<script id="controls" type="application/xml">
+<controls>
+     <group name="ctrl1" id="ctrl1">
+          <param x="0" y="0"/>
+          <button id="next">
+               <param type="IMAGE" x="70" y="0" width="49" height="49" depth="85"
+                    srcNormal="gui/skin/buttons/b_right_norm.png"
+                    srcActive="gui/skin/buttons/b_right_over.png"
+                    srcPressed="gui/skin/buttons/b_right_over.png"/>
+          </button>          
+          <button id="previous">
+               <param type="IMAGE" x="0" y="0" width="49" height="49" depth="85"
+                    srcNormal="gui/skin/buttons/b_left_norm.png"
+                    srcActive="gui/skin/buttons/b_left_over.png"
+                    srcPressed="gui/skin/buttons/b_left_over.png"/>
+          </button>
+
+     </group>
+</controls>
+</script>
+<!--**************************************************************************************-->
+<script id="labwork" type="application/xml">
+	<labwork>
+		<constants>
+			<global>
+                <constant name="d" value="screen:d" comment="desktop"    />
+                <constant name="m1" value="screen:m:0.3-0.7" comment="к. масшт. для телефонов"    />        
+                <constant name="m2" value="screen:m:0.7-0.97" comment="к. масшт. для средних планшетов"     />
+                <constant name="m3" value="screen:m:0.98-1.1" comment="к. масшт. для iPad"     />
+                <constant name="m4" value="screen:m:1.1-1.5" comment="к. масшт. для болльших планшетов"     />   
+ 			</global>	
+			<conditional>
+<!-- крутилка -->
+				<constant condition="$d;$m2;$m3" name="3dPath" value="3d-rotation-viewer/3d-rotation-viewer.html" comment="" />
+<!--крутилка-small -->
+				<constant  condition="$m1" name="3dPath" value="3d-rotation-viewer/3d-rotation-viewer-small.html" comment="" />
+			
+				<!--constant  condition="" name="" value="3d-rotation-viewer/3d-rotation-viewer.html" comment=""     /-->	
+			</conditional>
+			<conditional>
+				<constant  condition="$d;$m3" name="slaidesPath" value="s_show/index.html" comment=""     /> 
+				<constant  condition="$m2" name="slaidesPath" value="s_show/index_middle.html" comment=""     /> 				
+                <constant  condition="$m1" name="slaidesPath" value="s_show/index_small.html" comment=""     />  
+				<constant  condition="$d;$m2;$m3" name="slaidesPath1" value="s_show1/index.html" comment=""     />    
+                <constant  condition="$m1" name="slaidesPath1" value="s_show1/index_small.html" comment=""     />  
+			</conditional>	
+		</constants>
+		<settings> <!-- настройки всего модуля -->
+
+			<!--sound allowMultiple="false"/-->
+		</settings> <!-- end настройки -->
+		
+	<!--	<text id="text_shapka"  visible="true"> 
+			<param type="html" style="baseRespText,right,w" x="50" y="3" width="870" height="50"  depth="21"/>
+			<value><![CDATA[Буквопад]]></value>
+		</text>	-->
+	<!-- плашка -->
+		
+		<steps>	
+				<step id="step_1" type="information" resultCount="false"/> <!-- вводная сцена -->		
+	 
+		</steps>
+	</labwork>	
+</script>	
+<!--**************************************************************************************-->
+<!--********************** Сцена 1 ****************************************************************-->
+<script id="step_1" type="application/xml">
+    <step>
+        <settings>
+            <name></name>
+        </settings>
+				<!--image id="central_bg" visible="false" enabled="true">
+			<param x="0" y="0" width="1050" height="650" src="gui/skin/fon.png" depth="0" hitArea="opaque"/>
+		</image-->
+		<flash id="igra" visible="true" playing="true" >
+			<param src="media/vremGoda.swf" x="0" y="0" depth="9" width="1050" height="650" wmode="transparent"/>
+		</flash>
+
+
+		<image id="b_inf" visible="true" enabled="true">
+			<param x="10" y="590"  src="media/img/kn_ab.png" depth="20" hitArea="opaque"/>
+			<actions>
+				<action event="onPress">showObject:@info</action>
+			</actions>
+		</image>
+
+		<image id="inf,info" visible="false" enabled="false">
+			<param x="180" y="40"  src="media/img/about08.png" depth="21" hitArea="opaque"/>
+			<actions>
+				<action event="onPress">hideObject:@info</action>
+			</actions>
+		</image>
+		<text id="text_info,info"  visible="false">
+			<param type="html" style="baseRespText" x="270" y="120" width="530" height="400"  depth="22"/>
+			<value><![CDATA[<font color='#2e528e'>Художник нарисовал пейзаж, но перепутал времена года. Нужно найти все несоответствия на картине и исправить их. Диктор комментирует допущенные ошибки. <Br><Br> Игра способствует развитию речи и увеличению словарного запаса, тренирует внимание и наблюдательность.</font> ]]></value>
+			<actions>
+				<action event="onPress">hideObject:@info</action>
+			</actions>
+		</text>
+	</step>
+</script>
+
+<!--**************************************************************************************-->
+	<style type="text/css">
+	.rotatorImg {
+		position:absolute;
+		visibility:hidden;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+	}
+	</style>	
+
+		<link href="gui/smoothness/jquery-ui-1.10.1.custom.css" rel="stylesheet" />
+		<link href="gui/lacerta_resp.css" rel="stylesheet"/>	
+		<link href="gui/buttons/buttons.css" rel="stylesheet"/>
+		<link href="gui/result_viewer.css" rel="stylesheet"/>
+		<script type="text/javascript">
+		var showMessage = 0;		
+		var userAgentStr = navigator.userAgent;
+		//http://www.javascriptkit.com/javatutors/navigator.shtml
+		if (/Firefox[\/\s](\d+\.\d+)/.test(userAgentStr)){
+			var ffversion=new Number(RegExp.$1)
+			if (ffversion<3.5){
+				showMessage = 1;
+				messageSrc = "message.htm";
+			}
+		} else if(/MSIE (\d+\.\d+);/.test(userAgentStr)){
+			var ieversion=new Number(RegExp.$1)		
+			var compatibleMod = userAgentStr.search(/Trident/i)
+			if (ieversion<8){
+				if(compatibleMod < 0){
+					showMessage = 1;
+					messageSrc = "message.htm";				
+				}
+			}			
+		} else if(/Opera[\/\s](\d+\.\d+)/.test(userAgentStr)){
+			var oprversion=new Number(RegExp.$1)
+			if (oprversion < 8){
+				showMessage = 1;
+				messageSrc = "message.htm";
+			}			
+		}
+		if (showMessage){
+			var theW = 800;
+			var theH = 600;
+			newWindowId = window.open(messageSrc,'message','menubar=no,alwaysRaised=yes,dependent=yes,width=' + theW + ',height=' + theH + ',outerWidth=' + theW + ',scrollbars=yes,screenX='+((screen.width/2)-(theW/2))+',screenY='+((screen.height/2)-(theH/2)) + ',left='+((screen.width/2)-(theW/2))+',top='+((screen.height/2)-(theH/2)));    
+			newWindowId.focus();
+		}
+		</script> 
+		<!--script type="text/javascript">
+		//function testPOrientation(){
+		var mql = window.matchMedia("(orientation: portrait)");
+		mql.addListener(function(m) {
+		  if(m.matches) {
+				mvp.setAttribute('content','width=640, initial-scale=1,  maximum-scale=3.0');
+		  }
+		  else {
+				mvp.setAttribute('content','width=950, initial-scale=1,  maximum-scale=3.0');
+		  }
+		});
+		</script-->
+		<script src="scripts/modernizr.custom.js"></script>
+		<script src="scripts/jquery/jquery-1.9.1.min.js"></script>
+		<script src="scripts/scorm/APIWrapper.js"></script>
+		<script src="scripts/toolbox.flashembed.js"></script>
+		<script src="scripts/jquery/jquery-ui-1.10.1.custom.min.js"></script>
+		<!--script src="scripts/jquery/jquery.ui.button.js"></script-->	
+		<script src="scripts/responsive_lacerta_min.js"></script>
+	
+		
+	</head>
+    <body onresize='toggleScreenCSS();'>
+		<noscript><h1>Your browser does not support JavaScript!</h1></noscript>
+		<div id="scene">
+			
+			<div id="commonBG">			
+			</div>			
+			<div id="navigation"></div>
+			<div id="currentStep"></div>
+			<div id="progressBar"></div>
+			<div id="hint" style="z-index:1100"></div>
+		</div>
+		<div id="splashScreen"></div>		
+		
+    </body>
+</html>
